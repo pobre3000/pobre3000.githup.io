@@ -1,0 +1,41 @@
+body{
+background: linear-gradient(to bottom, #333333, #777777);
+height: 100vh;
+margin: 0;
+padding: 0;
+font-family: Oswald;
+}
+
+header {
+background: black;
+display: flex;
+justify-content: space-between;
+align-items: center;
+padding: 10px 40px;
+}
+
+nav {
+display: flex;
+gap: 15px;
+}
+
+nav a {
+color: white;
+text-decoration: none;
+text-transform: uppercase;
+}
+
+nav a:hover {
+color: #000;
+text-decoration: underline;
+background: #FFCC00;
+}
+
+div.logo {
+color: #FFCC00;
+font-size: 45px;
+}
+
+div.portada img {
+width: 100%;
+}
